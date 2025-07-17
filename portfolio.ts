@@ -8,7 +8,7 @@ const about = {
  role: "React / Full-stack developer",
  description:
   "Specializing in React, Next.js, Vue.js, and NestJS, I build scalable and performant web applications with modern frameworks, focusing on user experience.",
- resume: "/resume_en.pdf",
+ resume: "/api/resume",
  social: {
   linkedin: "https://www.linkedin.com/in/simon-paillassa/",
   github: "https://github.com/SimonPail",

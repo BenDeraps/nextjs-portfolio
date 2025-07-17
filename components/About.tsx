@@ -1,9 +1,9 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { about } from "@/portfolio";
-import Button from "@mui/material/Button";
 import CustomLink from "./ui/CustomLink";
 import ScrollFadeInWrapper from "./ui/ScrollFadeInWrapper";
+import ResumeButton from "./ui/ResumeButton";
 
 const About = () => {
  const { name, role, description, resume, social } = about;
@@ -23,11 +23,10 @@ const About = () => {
 
    <div className="flex space-x-2 items-center mt-8">
     {resume && (
-     <a href={resume} target="_blank">
-      <Button variant="contained" color="primary" className="rounded-full">
-       Resume
-      </Button>
-     </a>
+     <ResumeButton 
+       resumeUrl={resume}
+       className="rounded-full"
+     />
     )}
 
     {social && (
