@@ -3,10 +3,10 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { about } from "@/portfolio";
 import CustomLink from "./ui/CustomLink";
 import ScrollFadeInWrapper from "./ui/ScrollFadeInWrapper";
-import ResumeButton from "./ui/ResumeButton";
+
 
 const About = () => {
- const { name, role, description, resume, social } = about;
+ const { name, role, description, social } = about;
 
  return (
   <ScrollFadeInWrapper className="flex flex-col justify-center items-center md:pt-10 pb-5">
@@ -20,14 +20,6 @@ const About = () => {
    <p className="max-w-[600px] mt-6 opacity-75 leading-relaxed">
     {description && description}
    </p>
-
-   <div className="flex space-x-2 items-center mt-8">
-    {resume && (
-     <ResumeButton 
-       resumeUrl={resume}
-       className="rounded-full"
-     />
-    )}
 
     {social && (
      <>
