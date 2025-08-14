@@ -1,4 +1,4 @@
-import GithubIcon from "@mui/icons-material/Github";
+import GitHubIcon from "@mui/icons-material/Github";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { about } from "@/portfolio";
 import CustomLink from "./ui/CustomLink";
