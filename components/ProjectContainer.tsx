@@ -29,13 +29,13 @@ const ProjectContainer = ({ project }: { project: (typeof projects)[0] }) => (
    )}
 
    <CardActions>
-    {project.sourceCode && (
+    {project.liveUrl && (
      <CustomLink
-      href={project.sourceCode}
-      aria-label="source code"
+      href={project.liveUrl}
+      aria-label="live preview"
       variant="icon"
       target="_blank">
-      <GitHubIcon />
+      <LaunchIcon />
      </CustomLink>
     )}
 
@@ -49,12 +49,12 @@ const ProjectContainer = ({ project }: { project: (typeof projects)[0] }) => (
      </CustomLink>
     )}
 
-    {project.projectUrl && (
+    {project.liveUrl && (
      <CustomLink
-      href={project.projectUrl}
-      aria-label="project preview"
+      href={project.liveUrl}
+      aria-label="live preview"
       variant="icon">
-      <VisibilityIcon />
+      <LaunchIcon />
      </CustomLink>
     )}
    </CardActions>
