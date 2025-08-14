@@ -8,7 +8,6 @@ const about = {
  role: "Data Analyst",
  description:
   " Specializing in cleaning, analyzing, and visualizing data to help organizations make informed, data-driven decisions",
- resume: "/api/resume",
  social: {
   linkedin: "www.linkedin.com/in/benjaminderaps",
   github: "https://github.com/BenDeRaps",
@@ -72,4 +71,4 @@ const education = [
  have a portfolio of real projects and the skills to succeed in fast paced, data driven environments.`,
  },
  
-export { header, about, projects, skills, experience, contact };
+export { header, about, projects, skills, education };
