@@ -5,7 +5,7 @@ import Brightness2Icon from "@mui/icons-material/Brightness2";
 import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import { projects, skills, contact, experience } from "../portfolio";
+import { projects, skills, education } from "../portfolio";
 import CustomLink from "./ui/CustomLink";
 import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
@@ -42,25 +42,14 @@ const Navbar = () => {
        </CustomLink>
       </li>
      )}
-     {/* Experience */}
-     {experience.length && (
+     {/* Education */}
+     {education.length && (
       <li className="md:ml-6">
-       <CustomLink href="#experience" onClick={toggleNavList}>
-        Experience
+       <CustomLink href="#education" onClick={toggleNavList}>
+        Education
        </CustomLink>
       </li>
      )}
-
-     {/* Contact */}
-     {contact.email && (
-      <li className="md:ml-6">
-       <CustomLink href="#contact" onClick={toggleNavList}>
-        Contact
-       </CustomLink>
-      </li>
-     )}
-    </ul>
-   )}
 
    <button
     type="button"
