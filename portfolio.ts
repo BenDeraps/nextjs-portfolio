@@ -4,104 +4,71 @@ const header = {
 };
 
 const about = {
- name: "Simon",
- role: "React / Full-stack developer",
+ name: "Benjamin DeRaps",
+ role: "Data Analyst",
  description:
-  "Specializing in React, Next.js, Vue.js, and NestJS, I build scalable and performant web applications with modern frameworks, focusing on user experience.",
+  " Specializing in cleaning, analyzing, and visualizing data to help organizations make informed, data-driven decisions",
  resume: "/api/resume",
  social: {
-  linkedin: "https://www.linkedin.com/in/simon-paillassa/",
-  github: "https://github.com/SimonPail",
+  linkedin: "www.linkedin.com/in/benjaminderaps",
+  github: "https://github.com/BenDeRaps",
  },
 };
 
 const projects = [
  {
-  name: "Boschung",
-  year: "2024",
+  name: "Zomato Customer Segment Analysis",
+  year: "2025",
   description:
-   "High-performance monitoring and management platform for road and airport maintenance, providing real-time data visualization and analytics to enhance operational efficiency.",
-  stack: ["React", "Redux-Saga", "TypeScript"],
-  liveUrl: "https://www.boschung.com/fr/product/bvision/",
+   `Analyzed customer demographics and restaurant performance using Excel and Tableau to identify high value customer segments,
+   Resulting in actionable marketing strategies for targeted promotions. Built interactive dashboards with advanced filters to 
+   visualize customer behavior patterns across multiple demographic variables.`,
+  stack: ["Excel", "Tableau"],
+  liveUrl: "https://public.tableau.com/views/ZomatosCustomerSegmentationAnalysis/SalesbyIncomeEducation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
  },
  {
-  name: "Moving Motivators",
-  year: "2024",
+  name: "NYC AirBNB Revenue analysis",
+  year: "2025",
   description:
-   "Interactive tool designed to help uncover personal values and understand how they influence work performance and satisfaction",
-  stack: ["Next.js", "TypeScript", "Socket.io", "React"],
-  sourceCode: "https://github.com/SimonPail/moving-motivators",
-  liveUrl: "https://movingmotivators.extia.ro",
+   `Analyzed Manhattan Air BNB listings using Excel pivot tables and data visualization to identify top performing neighborhoods 
+   and property types, Projecting revenue potential exceeding 350K annually for high-demand listings. Delivered strategic 
+   recommendations for optimizing vacation rental investments in high revenue markets.`,
+  stack: ["Excel"],
+  liveUrl: "https://docs.google.com/spreadsheets/d/1D0biCmo5TYe00wDNYJTio44n-6-x-fQxeUDynDXGd6w/edit?usp=sharing",
  },
  {
-  name: "Sarba",
-  year: "2024",
+  name: " Superstore Profit Optimization Dashboard",
+  year: "2025",
   description:
-   "Expense Management Application designed to help employees and administration to manage expenses incurred during working days",
-  stack: ["Next.js", "NestJS", "TypeScript", "React"],
-  projectUrl: "/projects/sarba",
+   ` Developed a comprehensive Tableau dashboard analyzing sales, returns, and advertising ROI to identify profit drivers
+   and reduce return losses, providing data=driven recommendations for product discontinuation and targeted advertising 
+   strategies. Created Interactive visualizations with color coded performance metrics for executive stakeholder presentation`,
+  stack: ["Tableau","Excel"],
  },
 ];
 
 const skills = [
- "HTML/CSS",
- "JavaScript",
- "TypeScript",
- "React",
- "Redux",
- "VueJs",
- "Next.js",
- "NestJS",
- "Node.js",
- "Express.js",
- "MongoDB",
- "MySQL",
- "Git",
- "CI/CD",
- "Jest",
- "PactumJS",
- "Socket.io",
+ "Excel",
+ "SQL",
+ "Tableau",
+ "Power BI",
+ "Python",
+ "Data Visualization",
+ "Data Storytelling",
 ];
 
-const experience = [
+const education = [
  {
-  name: "Full-stack React/Javascript Developer",
-  locations: [
-   { date: "2024 - 2025", location: "Portugal" },
-   { date: "2023 - 2024", location: "Romania" },
+  name: "TripleTen Data Analytics Boot Camp",
+  { date: "2024 - 2025", location: "Remote" },
   ],
 
   description:
-   "Extia is an international consulting agency specializing in IT, where I contributed to various projects.",
-  stack: ["Next.js", "React", "Redux", "TypeScript", "NestJS", "MongoDB"],
+   `Triple 10 is a rigorous, project based data analytics program designed to prepare students for real-world problem-solving. 
+ Through an intensive curriculum, students develop expertise in SQL, excel, tableau, power BI, Python,, and data visualization 
+ while working on practical business cases across multiple industries. The program emphasizes hands-on learning, critical thinking,
+ and end-to-end project execution. From cleaning and analyzing raw data to delivering professional dashboards, by the end, graduates
+ have a portfolio of real projects and the skills to succeed in fast paced, data driven environments.`,
  },
- {
-  name: "Full-stack VueJS/Javascript Developer",
-  locations: [
-   {
-    date: "2022 - 2023",
-    location: "France",
-   },
-  ],
-  description:
-   "ITAF Technologie is developing an healthcare application serving a user base of 70000 active patients.",
-  stack: ["VueJS", "JavaScript", "Node.Js", "Express.JS", "MongoDB"],
- },
- {
-  name: "Full-stack VueJS/PHP Developer",
-  locations: [
-   {
-    date: "2019 - 2022",
-    location: "France",
-   },
-  ],
-  description: "Addeo is developing a Career Development SaaS Application.",
-  stack: ["VueJS", "JavaScript", "PHP", "MySQL"],
- },
-];
-
-const contact = {
- email: "contact@simbl.dev",
-};
-
+ 
 export { header, about, projects, skills, experience, contact };
