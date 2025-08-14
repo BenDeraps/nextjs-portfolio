@@ -37,13 +37,14 @@ const projects = [
   liveUrl: "https://docs.google.com/spreadsheets/d/1D0biCmo5TYe00wDNYJTio44n-6-x-fQxeUDynDXGd6w/edit?usp=sharing",
  },
  {
-  name: " Superstore Profit Optimization Dashboard",
+  name: "Superstore Profit Optimization Dashboard",
   year: "2025",
   description:
    ` Developed a comprehensive Tableau dashboard analyzing sales, returns, and advertising ROI to identify profit drivers
    and reduce return losses, providing data=driven recommendations for product discontinuation and targeted advertising 
    strategies. Created Interactive visualizations with color coded performance metrics for executive stakeholder presentation`,
   stack: ["Tableau","Excel"],
+  liveUrl:"https://public.tableau.com/views/SuperStoreReturnRateAnalysisDashboardandStory/Story1FinalRecommendations?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
  },
 ];
 
