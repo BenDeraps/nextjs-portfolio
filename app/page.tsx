@@ -1,6 +1,5 @@
 import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
+import Education from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -14,8 +13,7 @@ export default function Home() {
     <About />
     <Projects />
     <Skills />
-    <Experience />
-    <Contact />
+    <Education />
     <Footer />
    </main>
    <MotionPath
