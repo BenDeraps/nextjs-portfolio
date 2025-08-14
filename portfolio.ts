@@ -57,7 +57,7 @@ const education = [
     date: "2024 - 2025",
     location: "Remote",
     description:
-      "TripleTen is a rigorous, project-based data analytics program designed to prepare students for real-world problem solving. Through an intensive curriculum, students develop expertise in SQL, Excel, Tableau, Power BI, Python, and data visualization while working on practical business cases across multiple industries. The program emphasizes hands-on learning, critical thinking, and end-to-end project execution. From cleaning and analyzing raw data to delivering professional dashboards, by the end, graduates have a portfolio of real projects and the skills to succeed in fast-paced, data-driven environments."
+      "TripleTen is a rigorous, project-based data analytics program designed to prepare students for real-world problem solving. Through an intensive curriculum, students develop expertise in SQL, Excel, Tableau, Power BI, Python, and data visualization while working on practical business cases across multiple industries. The program emphasizes hands-on learning, critical thinking, and end-to-end project execution. From cleaning and analyzing raw data to delivering professional dashboards, by the end, graduates have a portfolio of real projects and the skills to succeed in fast-paced, data-driven environments.",
   }
 ];
 
